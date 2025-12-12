@@ -1,0 +1,1 @@
+cat tasks.txt | xargs -n 6 -P 4 sh -c 'python3 train_ppo.py --algo $0 --env_name $1 --distribution_mode $2 --eval_mode $3 --nets_type $4 --port_num $5 --n_proc 4'

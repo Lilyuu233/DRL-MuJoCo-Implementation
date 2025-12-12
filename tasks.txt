@@ -1,0 +1,4 @@
+dodgeball hard gen cnn 29500
+cavefly   hard gen cnn 29501
+coinrun   hard gen cnn 29502
+starpilot hard gen cnn 29503
